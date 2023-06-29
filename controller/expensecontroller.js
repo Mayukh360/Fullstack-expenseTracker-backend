@@ -45,9 +45,6 @@ const updateProduct = async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 };
-
-
-
 const deleteProduct = async (req, res) => {
   console.log(req.body);
   try {
